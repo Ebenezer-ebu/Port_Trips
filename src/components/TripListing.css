@@ -1,0 +1,67 @@
+.image {
+  width: 70px;
+  height: 70px;
+}
+
+h4 {
+  padding-left: 30px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 3px;
+  row-gap: 10px;
+  height: 110px;
+}
+
+.trip_id {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.trip_type {
+  background: #fff;
+  padding: 10px 60px;
+}
+
+.trip_time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  background: #ccccff;
+  padding: 0px 10px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.trip_price {
+  background: #fff;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trip_price .btn2 {
+  background: #6600ff;
+  border-radius: 5px;
+  border: none;
+  width: 45%;
+  height: 30%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.trip_price p {
+  margin: 10px 0;
+}
